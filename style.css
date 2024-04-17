@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    width: 50%;
+}
+
+*{
+    font-size: 20px;
+}
+input {
+    border: none;
+    border-bottom: 2px solid purple ;
+    
+}
+
+  
+  .r {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  input{
+    width: 250px;
+  }
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+  }
+  
+  #facebook {
+    background-color: #3b5998;
+    color: #fff;
+
+  }
+  
+  #Apple {
+    background-color: #000000;
+    color: #fff;
+
+  }
+  #Sign{
+    background-color: purple;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh; /* Full height of the viewport */
+  }
+  .r{
+    padding-top: 100px;
+  }
+  .l,
+  .r {
+    flex: 1; /* Each partition takes up equal space */
+  }
+  
+  .l {
+    background-color: #eaeaea; /* Background color for left partition */
+    width: 100%;
+    height: 100%;
+  }
+  
+  .r {
+    background-color: #ffffff; /* Background color for right partition */
+  }
+  .l {
+    background-image: url('x.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
