@@ -1,1 +1,1 @@
-# Sign-In
+Welcome to our sign-in page project! As beginners in web development, we've crafted a clean and straightforward sign-in interface using HTML and CSS. While it's non-responsive for now, it serves as a great starting point for learning the basics of web design. Dive into our code to explore how we've structured the page and styled it to create a polished look. We're excited to share our progress with you on GitHub!
